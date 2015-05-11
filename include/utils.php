@@ -130,7 +130,7 @@ function make_sugar_config(&$sugar_config)
 	'default_date_format' => empty($defaultDateFormat) ? 'm/d/Y' : $defaultDateFormat,
     'default_locale_name_format' => empty($defaultNameFormat) ? 's f l' : $defaultNameFormat,
 	'default_export_charset' => 'UTF-8',
-	'default_language' => empty($default_language) ? 'en_us' : $default_language,
+	'default_language' => empty($default_language) ? 'es_ES' : $default_language,
 	'default_module' => empty($default_module) ? 'Home' : $default_module,
 	'default_password' => empty($default_password) ? '' : $default_password,
 	'default_permissions' => array (
@@ -152,7 +152,7 @@ function make_sugar_config(&$sugar_config)
 	'import_dir' => $import_dir,  // this must be set!!
 	'import_max_records_per_file' => 100,
     'import_max_records_total_limit' => '',
-	'languages' => empty($languages) ? array('en_us' => 'English (US)') : $languages,
+	'languages' => empty($languages) ? array('es_ES' => 'Espaniol (ES)') : $languages,
 	'list_max_entries_per_page' => empty($list_max_entries_per_page) ? 20 : $list_max_entries_per_page,
 	'list_max_entries_per_subpanel' => empty($list_max_entries_per_subpanel) ? 10 : $list_max_entries_per_subpanel,
 	'lock_default_user_name' => empty($lock_default_user_name) ? false : $lock_default_user_name,
@@ -299,7 +299,7 @@ function get_sugar_config_defaults() {
 	'installer_locked' => true,
 	'import_max_records_per_file' => 100,
     'import_max_records_total_limit' => '',
-	'languages' => array('en_us' => 'English (US)'),
+	'languages' => array('es_ES' => 'Espaniol (ES)'),
 	'large_scale_test' => false,
 	'list_max_entries_per_page' => 20,
 	'list_max_entries_per_subpanel' => 10,
